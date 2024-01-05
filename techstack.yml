@@ -1,7 +1,8 @@
 repo_name: mollypi/js-sdk
 report_id: c57dc35e3e04c355df76558d3c159770
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T05:33:14+00:00'
+timestamp: '2024-01-05T08:42:06+00:00'
 requested_by: MohamedEssamAdawy
 provider: github
 branch: development
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mollypi/js-sdk
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mollypi/js-sdk
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/mollypi/js-sdk
   detection_source: Repo Metadata
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
@@ -45,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mollypi/js-sdk
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -54,6 +59,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/js-sdk
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -63,7 +69,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/js-sdk.yml"
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/.github/workflows/black-docstr.yml
+  detection_source: ".github/workflows/black-docstr.yml"
   last_updated_by: AhmedHanafy725
   last_updated_on: 2020-07-21 10:14:39.000000000 Z
 - name: Kubernetes
@@ -76,7 +83,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
-  detection_source: solutions_automation/dashboard_solutions/kubernetes.py
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/examplescripts/kubernetes.py
+  detection_source: examplescripts/kubernetes.py
   last_updated_by: Maged Motawea
   last_updated_on: 2020-11-09 13:45:02.000000000 Z
 - name: NGINX
@@ -88,7 +96,8 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
-  detection_source: jumpscale/servers/threebot/templates/nginx.conf
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/jumpscale/sals/nginx/templates/nginx.conf
+  detection_source: jumpscale/sals/nginx/templates/nginx.conf
   last_updated_by: xmonader
   last_updated_on: 2020-05-14 12:34:16.000000000 Z
 - name: PyPI
@@ -99,6 +108,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: xmonader
   last_updated_on: 2019-07-23 11:36:46.000000000 Z
@@ -111,10 +121,11 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/mollypi/js-sdk
   detection_source: Repo Metadata
 - name: PyGithub
   description: Use the full Github API v3
-  package_url: https://pypi.org/PyGithub
+  package_url: https://pypi.org/project/PyGithub
   version: '1.43'
   license: LGPL-3.0
   open_source: true
@@ -122,13 +133,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19957/default_f0290ff2792e2af7d13f5c82ed82206842ec288d.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: alichaddad
   last_updated_on: 2020-05-31 12:37:45.000000000 Z
 - name: base58
   description: Base58 and Base58Check implementation
-  package_url: https://pypi.org/base58
+  package_url: https://pypi.org/project/base58
   version: 2.0.1
   license: MIT
   open_source: true
@@ -136,13 +147,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20011/default_b32e64a45d8bf9f1d856079699536a385ca50457.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Abdelrahman Ghanem
   last_updated_on: 2020-11-16 06:47:09.000000000 Z
 - name: certifi
   description: Python package for providing Mozilla's CA Bundle
-  package_url: https://pypi.org/certifi
+  package_url: https://pypi.org/project/certifi
   version: 2019.11.28
   license: MPL-2.0
   open_source: true
@@ -150,7 +161,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Abdelrahman Ghanem
   last_updated_on: 2020-11-16 06:47:09.000000000 Z
@@ -170,7 +181,7 @@ tools:
 - name: cryptography
   description: Cryptography is a package which provides cryptographic recipes and
     primitives to Python developers
-  package_url: https://pypi.org/cryptography
+  package_url: https://pypi.org/project/cryptography
   version: '3.0'
   license: BSD-3-Clause,Apache-2.0
   open_source: true
@@ -178,7 +189,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Abdelrahman Ghanem
   last_updated_on: 2020-11-16 06:47:09.000000000 Z
@@ -202,12 +213,6 @@ tools:
     detected_date: Feb 8
     severity: moderate
     first_patched: 39.0.1
-  - name: Vulnerable OpenSSL included in cryptography wheels
-    cve_id: 
-    cve_url: https://github.com/advisories/GHSA-5cpq-8wj7-hf2v
-    detected_date: Jun 3
-    severity: low
-    first_patched: 41.0.0
   - name: pyca/cryptography's wheels include vulnerable OpenSSL
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
@@ -220,9 +225,15 @@ tools:
     detected_date: Sep 22
     severity: low
     first_patched: 41.0.4
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5cpq-8wj7-hf2v
+    detected_date: Jun 3
+    severity: low
+    first_patched: 41.0.0
 - name: dnspython
   description: DNS toolkit
-  package_url: https://pypi.org/dnspython
+  package_url: https://pypi.org/project/dnspython
   version: 1.16.0
   license: Other
   open_source: true
@@ -230,13 +241,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Maged Motawea
   last_updated_on: 2020-09-03 10:17:51.000000000 Z
 - name: greenlet
   description: Lightweight in-process concurrent programming
-  package_url: https://pypi.org/greenlet
+  package_url: https://pypi.org/project/greenlet
   version: 0.4.16
   license: MIT
   open_source: true
@@ -244,13 +255,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Abdelrahman Ghanem
   last_updated_on: 2020-09-23 10:20:52.000000000 Z
 - name: minio
   description: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
-  package_url: https://pypi.org/minio
+  package_url: https://pypi.org/project/minio
   version: 4.0.21
   license: Apache-2.0
   open_source: true
@@ -258,13 +269,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20459/default_536558499e6ad2ea6139ec9f03c1fb627bed1446.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Waleed
   last_updated_on: 2020-06-15 10:06:53.000000000 Z
 - name: netaddr
   description: A network address manipulation library for Python
-  package_url: https://pypi.org/netaddr
+  package_url: https://pypi.org/project/netaddr
   version: 0.7.20
   license: BSD-3-Clause
   open_source: true
@@ -272,13 +283,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19938/default_33cd769f45954740da26824e035edca16b8b6b14.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Abdelrahman Ghanem
   last_updated_on: 2020-11-16 06:47:09.000000000 Z
 - name: protobuf
   description: Protocol Buffers
-  package_url: https://pypi.org/protobuf
+  package_url: https://pypi.org/project/protobuf
   version: 3.13.0
   license: BSD-1-Clause
   open_source: true
@@ -286,7 +297,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19862/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Ashraf Fouda
   last_updated_on: 2020-06-30 14:27:16.000000000 Z
@@ -305,7 +316,7 @@ tools:
     first_patched: 3.18.3
 - name: pycountry
   description: ISO country
-  package_url: https://pypi.org/pycountry
+  package_url: https://pypi.org/project/pycountry
   version: 19.8.18
   license: LGPL-2.1
   open_source: true
@@ -313,13 +324,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20278/default_652c0d6bf7921ddf8ce908ae573d5eb3b8bff19f.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Waleed
   last_updated_on: 2020-06-23 15:55:45.000000000 Z
 - name: sendgrid
   description: Twilio SendGrid library for Python
-  package_url: https://pypi.org/sendgrid
+  package_url: https://pypi.org/project/sendgrid
   version: 6.4.7
   license: MIT
   open_source: true
@@ -327,7 +338,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20325/default_0c9409de2ef424482d14f84cb95c9dab5c399c85.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/js-sdk/blob/development/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Ahmed T. Youssef
   last_updated_on: 2020-07-16 16:21:57.000000000 Z
